@@ -1,0 +1,24 @@
+{
+    "3DBall": {
+        "checkpoints": [
+            {
+                "steps": 154027,
+                "file_path": "results\\CollinTest\\3DBall\\3DBall-154027.onnx",
+                "reward": 5.239506381897279,
+                "creation_time": 1606850572.076275
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 154027,
+            "file_path": "results\\CollinTest\\3DBall.onnx",
+            "reward": 5.239506381897279,
+            "creation_time": 1606850572.076275
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.22.0",
+        "torch_version": "1.6.0+cu101",
+        "tensorflow_version": "2.3.1"
+    }
+}

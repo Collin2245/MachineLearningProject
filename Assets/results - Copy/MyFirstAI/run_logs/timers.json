@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1606850258",
+        "python_version": "3.8.6 (tags/v3.8.6:db45529, Sep 23 2020, 15:52:53) [MSC v.1927 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\colli\\OneDrive\\Programming\\Python\\Environments\\winMachineLearning_env\\Scripts\\mlagents-learn --run-id=MyFirstAI",
+        "mlagents_version": "0.22.0",
+        "mlagents_envs_version": "0.22.0",
+        "communication_protocol_version": "1.2.0",
+        "pytorch_version": "1.6.0+cu101",
+        "numpy_version": "1.18.5",
+        "end_time_seconds": "1606850320"
+    },
+    "total": 62.43954000000001,
+    "count": 1,
+    "self": 0.2777358000000021,
+    "children": {
+        "run_training.setup": {
+            "total": 0.024987100000000595,
+            "count": 1,
+            "self": 0.024987100000000595
+        },
+        "TrainerController.start_learning": {
+            "total": 62.1368171,
+            "count": 1,
+            "self": 0.0008897999999959438,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 62.1356018,
+                    "count": 1,
+                    "self": 62.1356018
+                },
+                "TrainerController._save_models": {
+                    "total": 0.0003255000000024211,
+                    "count": 1,
+                    "self": 0.0003255000000024211
+                }
+            }
+        }
+    }
+}

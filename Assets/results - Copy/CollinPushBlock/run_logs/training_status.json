@@ -1,0 +1,24 @@
+{
+    "PushBlock": {
+        "checkpoints": [
+            {
+                "steps": 443483,
+                "file_path": "results\\CollinPushBlock\\PushBlock\\PushBlock-443483.onnx",
+                "reward": 3.8518769688522205,
+                "creation_time": 1606851947.9223266
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 443483,
+            "file_path": "results\\CollinPushBlock\\PushBlock.onnx",
+            "reward": 3.8518769688522205,
+            "creation_time": 1606851947.9223266
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.22.0",
+        "torch_version": "1.6.0+cu101",
+        "tensorflow_version": "2.3.1"
+    }
+}
